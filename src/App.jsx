@@ -1,18 +1,14 @@
 import './App.css'
 import Button from './components/Button'
+import Navigation from './components/Navigation';
 import { BiCartAlt } from "react-icons/bi";
 
 function App() {
  
 
   return (
-    <div className='bg-midnight-400'>
-      <div>
-        {/*Navigation*/}
-        <Button label="FAQs" href="#" className="bg-transparent text-grey-50 hover:text-flamingo-300" />
-        <Button label="Accedi" href="#" className="py-2.5 px-12 font-bold text-grey-50 bg-transparent hover:bg-grey-50 hover:text-flamingo-300" />
-        <Button label="Registrati" href="#" className="py-2.5 px-12 font-bold text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
-      </div>
+    <div>
+        <Navigation href="#" className="bg-midnight-400"/>
       <div>
         {/*Hero*/}
         <Button label="Registrati" href="#" className="py-5 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
