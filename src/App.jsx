@@ -4,9 +4,10 @@ function App() {
  
 
   return (
-    <>
-     <h1 className='text-8xl'>Test</h1>
-    </>
+    <div>
+     <h1 className='font-urbanist text-8xl'>Test Urbanist</h1>
+     <span className='text-4xl font-inter'>Test Inter</span>
+    </div>
   )
 }
 
