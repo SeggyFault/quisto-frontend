@@ -2,11 +2,49 @@ import './App.css'
 import Button from './components/Button'
 import Navigation from './components/Navigation';
 import Heading from './components/Heading';
+import Feature from './components/Feature';
 import { BiCartAlt } from "react-icons/bi";
 
 function App() {
+  const featuresData = [
+  {
+    image: "./src/assets/images/icons/icon-bolt.png",
+    heading: { 
+      children: 'Velocità', 
+      className: 'text-2xl text-center text-midnight-400', 
+      level: 3,
+    },
+    description: 'Ordina entro le 14 e saremo da te in 48h con la merce',
+  },
+  {
+    image: "./src/assets/images/icons/icon-relax.png",
+    heading: { 
+      children: 'Zero stress', 
+      className: 'text-2xl text-center text-midnight-400', 
+      level: 3, 
+    },
+    description: 'Gestire 6 fornitori diversi o andare tu a fare la spesa? Addio!',
+  },
+  {
+    image: "./src/assets/images/icons/icon-24-7.png",
+    heading: { 
+      children: 'Flessibilità', 
+      className: 'text-2xl text-center text-midnight-400', 
+      level: 3
+    },
+    description: 'Puoi ordinare online 24/7 o su Whatsapp o al telefono',
+  },
+  {
+    image: "./src/assets/images/icons/icon-truck.png",
+    heading: { 
+      children: 'Affidabilità', 
+      className: 'text-2xl text-center text-midnight-400', 
+      level: 3, 
+    },
+    description: 'Siamo ossessionati dalla qualità del servizio: per questo i clienti tornano',
+  },
+];
  
-
   return (
     <div className='height-test'>
         <Navigation href="#" className="sticky top-0 bg-midnight-400"/>
@@ -26,13 +64,19 @@ function App() {
         <Heading level={2} className="text-midnight-400 text-center text-[64px]">In offerta questo mese</Heading>
         <Button label="Aggiungi" href="#"  icon={BiCartAlt} className="px-8 py-2 font-bold text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
       </div>
-      <div>
+      <div className='my-16'>
         {/*Perché Quisto?*/}
-        <Heading level={2} className="text-midnight-400 text-center text-[64px]">Perché Quisto?</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Velocità</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Zero stress</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Flessibilità</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Affidabilità</Heading>
+        <Heading level={2} className="text-midnight-400 text-center text-[64px] mb-10">Perché Quisto?</Heading>
+        <div className="container grid gap-16 md:gap-8 md:grid-cols-2 xl:grid-cols-4 features-grid">
+            {featuresData.map((feature, index) => (
+              <Feature
+                key={index}
+                image={feature.image}
+                heading={feature.heading}
+                description={feature.description}
+              />
+            ))}
+        </div>
       </div>
        <div>
         {/*Provaci e ci amerai!*/}
