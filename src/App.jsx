@@ -7,8 +7,8 @@ function App() {
  
 
   return (
-    <div>
-        <Navigation href="#" className="bg-midnight-400"/>
+    <div className='height-test'>
+        <Navigation href="#" className="sticky top-0 bg-midnight-400"/>
       <div>
         {/*Hero*/}
         <Button label="Registrati" href="#" className="py-5 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
