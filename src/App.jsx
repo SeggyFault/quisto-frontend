@@ -3,6 +3,7 @@ import Button from './components/Button'
 import Navigation from './components/Navigation';
 import Heading from './components/Heading';
 import Feature from './components/Feature';
+import Footer from './layout/Footer';
 import { BiCartAlt } from "react-icons/bi";
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
 ];
  
   return (
-    <div className='height-test'>
+    <div>
         <Navigation href="#" className="sticky top-0 bg-midnight-400"/>
       <div>
         {/*Hero*/}
@@ -93,7 +94,7 @@ function App() {
       </div>
       <div>
          {/*Footer*/}
-         <Button label="Policy sulla privacy" href="#" className="text-xs text-grey-400 hover:underline" />
+         <Footer />
       </div>
     </div>
   )
