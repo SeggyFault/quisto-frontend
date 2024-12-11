@@ -9,7 +9,7 @@ const Navigation = ({ className, href }) => {
           <a href={href}>
             <img src="./src/assets/images/logos/logo.svg" width="135" height="45" alt="quisto logo" />
           </a>
-          <Button label="FAQs" href="#" className="py-2.5 px-12 bg-transparent text-grey-50 hover:text-flamingo-300" />
+          <Button label="FAQs" href="#" className="invisible md:visible py-2.5 px-12 bg-transparent text-grey-50 hover:text-flamingo-300" />
         </div>
 
         <ul className="flex gap-2.5">
