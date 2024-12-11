@@ -47,7 +47,6 @@ function Home() {
  
   return (
     <div>
-        <Navigation href="/" className="sticky top-0 bg-midnight-400"/>
       <div>
         {/*Hero*/}
         <Heading level={1} className="text-2xl text-left capitalize text-grey-200">Il grossista online di bevande e alimentari, in 48h al tuo</Heading>
@@ -90,10 +89,6 @@ function Home() {
         <Heading level={3} className="text-2xl text-center text-midnight-400">Quali sono i vostri principali vantaggi?</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Come ordino su Quisto?</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Perché fidarmi di Quisto?</Heading>
-      </div>
-      <div>
-         {/*Footer*/}
-         <Footer />
       </div>
     </div>
   )

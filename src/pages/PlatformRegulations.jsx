@@ -1,14 +1,9 @@
 const PlatformRegulations = () => {
   return (
-    <div className="m-10">
-      <header className="flex pb-10">
-        <a href="#">
-            <img src="./src/assets/images/logos/logo.svg" width="135" height="45" alt="quisto logo" />
-        </a>
-      </header>
+    <div className="my-10">
       <main className="font-inter">
-        <div className="flex flex-col place-items-center gap-7">
-          <span className="text-5xl font-extrabold uppercase text-flamingo-300 font-inter">Regolamento d’uso della piattaforma eoreka.it</span>
+        <div className="flex flex-col place-items-center md:place-items-start gap-7">
+          <span className="text-5xl font-extrabold text-flamingo-300 font-inter">Regolamento d’uso della piattaforma eoreka.it</span>
           <span className="mb-10 text-sm font-inter text-grey-400">Disponibile solo in italiano</span>
         </div>
         <div className="flex flex-col text-xs">
