@@ -3,7 +3,7 @@ import Button from "./Button";
 const Navigation = ({ className, href }) => {
   return (
     <nav className={className}>
-      <div className="container flex justify-between py-4">
+      <div className="my-0 mx-auto max-w-[1140px] flex justify-between py-4">
 
         <div className="flex gap-1">
           <a href={href}>
