@@ -1,8 +1,6 @@
 import Button from '../components/Button';
-import Navigation from '../components/Navigation';
 import Heading from '../components/Heading';
 import Feature from '../components/Feature';
-import Footer from '../layout/Footer';
 import { BiCartAlt } from "react-icons/bi";
 
 function Home() {
