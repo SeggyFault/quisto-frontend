@@ -47,12 +47,8 @@ function Home() {
  
   return (
     <div>
-      <div>
-        {/*Hero*/}
-        <Heading level={1} className="text-2xl text-left capitalize text-grey-200">Il grossista online di bevande e alimentari, in 48h al tuo</Heading>
-        <Button label="Registrati" href="#" className="py-5 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
-      </div>
-      <div>
+      <main>
+        
         {/*Come Funziona*/}
         <section className='grid gap-4 md:grid-cols-2 py-14'>
           <div>
@@ -105,14 +101,16 @@ function Home() {
           <Button label="Prodotti in assortimento" href="#" className="px-8 py-4 font-normal border-2 bg-flamingo-200 hover:bg-grey-50 text-grey-400 border-grey-400" />
         </section>
         
-      </div>
-      <div>
-        {/*In offerta questo mese*/}
+      </main>
+
+      {/*In offerta questo mese*/}
+      <section className='py-14'>
         <Heading level={2} className="text-midnight-400 text-center text-[64px]">In offerta questo mese</Heading>
         <Button label="Aggiungi" href="#"  icon={BiCartAlt} className="px-8 py-2 font-bold text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
-      </div>
-      <div className='my-16'>
-        {/*Perché Quisto?*/}
+      </section>
+      
+      {/*Perché Quisto?*/}
+      <section className='py-14'>
         <Heading level={2} className="text-midnight-400 text-center text-[64px] mb-10">Perché Quisto?</Heading>
         <div className="container grid gap-16 md:gap-8 md:grid-cols-2 xl:grid-cols-4 features-grid">
             {featuresData.map((feature, index) => (
@@ -124,20 +122,23 @@ function Home() {
               />
             ))}
         </div>
-      </div>
-       <div>
-        {/*Provaci e ci amerai!*/}
+      </section>
+      
+      {/*Provaci e ci amerai!*/}
+      <section className='py-14'>
         <Heading level={2} className="text-midnight-400 text-center text-[64px]">Provaci e ci amerai!</Heading>
         <Button label="Ordina su Quisto" href="#" className="py-5 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
-      </div>
-      <div>
+      </section>
+
+      <section className='py-14'>
         {/*FAQ*/}
         <Heading level={2} className="text-midnight-400 text-center text-[64px]">FAQs</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Cos’è Quisto?</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Quali sono i vostri principali vantaggi?</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Come ordino su Quisto?</Heading>
         <Heading level={3} className="text-2xl text-center text-midnight-400">Perché fidarmi di Quisto?</Heading>
-      </div>
+      </section>
+      
     </div>
   )
 }
