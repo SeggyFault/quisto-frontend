@@ -6,6 +6,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import PlatformRegulations from './pages/PlatformRegulations';
 import Registration from './pages/Registration';
 import Login from './pages/Login';
+import LostPassword from './pages/LostPassword';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/platform-regulations" element={<FullScreenLayout><PlatformRegulations /></FullScreenLayout>} />
         <Route path="/registrati" element={<FullScreenLayout><Registration></Registration></FullScreenLayout>} />
         <Route path="/login" element={<FullScreenLayout><Login /></FullScreenLayout>} />
+        <Route path="/lost-password" element={<FullScreenLayout><LostPassword/></FullScreenLayout>} />
       </Routes>
     </Router>
   );
