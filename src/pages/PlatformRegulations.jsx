@@ -1,12 +1,12 @@
 const PlatformRegulations = () => {
   return (
-    <div className="my-10">
+    <div className="px-5 py-10 md:px-10">
       <main className="font-inter">
-        <div className="flex flex-col place-items-center md:place-items-start gap-7">
-          <h1 className="text-5xl font-extrabold text-flamingo-300 font-inter">Regolamento d’uso della piattaforma eoreka.it</h1>
-          <span className="mb-10 text-sm font-inter text-grey-400">Disponibile solo in italiano</span>
+        <div className="flex flex-col gap-4 md:gap-7">
+          <h1 className="text-3xl font-extrabold text-center md:text-left md:text-5xl text-flamingo-300 font-inter">Regolamento d’uso della piattaforma eoreka.it</h1>
+          <span className="mb-10 text-base text-center md:text-sm md:text-left font-inter text-grey-400">Disponibile solo in italiano</span>
         </div>
-        <div className="flex flex-col text-xs">
+        <div className="flex flex-col text-sm md:text-xs">
           <p>Gentile Cliente,</p>
           <p>
             prima di procedere alla registrazione e utilizzare le funzionalità della Piattaforma 
@@ -25,8 +25,8 @@ const PlatformRegulations = () => {
 
         {/* FUNZIONALITÀ */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">1. Funzionalità della piattaforma</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">1. Funzionalità della piattaforma</span>
+          <ol className="text-sm md:text-xs">
             <li>
               <p><span className="font-bold">1.1</span> La Piattaforma offre al Cliente il servizio di compilazione e trasmissione, per via telematica, di ordini a Eoreka per l’acquisto dei Prodotti selezionati e inseriti nel Carrello.</p>
             </li>
@@ -50,11 +50,11 @@ const PlatformRegulations = () => {
 
         {/* DEFINIZIONI */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">2. Definizioni</span>
-          <p className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">2. Definizioni</span>
+          <p className="text-sm md:text-xs">
 	          Salva ogni ulteriore o diversa definizione contenuta nel presente Regolamento, i termini e le espressioni contraddistinti con le iniziali maiuscole avranno, nel medesimo, il significato di seguito indicato, restando inteso che i termini definiti al plurale si intendono definiti anche al singolare e viceversa:
 	        </p>
-          <ol className="py-4 pl-6 text-xs list-none list-outside">
+          <ol className="py-4 pl-6 text-sm list-none list-outside md:text-xs">
             <li>{'a).'}<span className="font-bold">Acquisto</span>: l’attività di acquisto dei Prodotti da parte del Cliente attraverso la Piattaforma;</li>
             <li>{'b).'}<span className="font-bold">Carrello</span>: la pagina del profilo del Cliente nella quale sono riepilogati i Prodotti selezionati dal Cliente;</li>
             <li>{'c).'}<span className="font-bold">Cliente</span>: il soggetto economico che agisce nell’ambito di un’attività imprenditoriale e che si registra alla Piattaforma al fine di concludere uno o più Contratti di Acquisto;</li>
@@ -73,14 +73,14 @@ const PlatformRegulations = () => {
 
         {/* REGISTRAZIONE */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">3. Registrazione alla piattaforma</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">3. Registrazione alla piattaforma</span>
+          <ol className="text-sm md:text-xs">
             <li>
               <p><span className="font-bold">3.1</span> Per poter accedere e utilizzare le funzionalità della Piattaforma il Cliente è tenuto a completare la procedura di registrazione.</p>
             </li>
             <li>
               <p><span className="font-bold">3.2</span> Per registrarsi al Cliente è richiesto di:</p>
-              <ol className="py-4 pl-6 text-xs list-decimal list-outside">
+              <ol className="py-4 pl-6 text-sm list-decimal list-outside md:text-xs">
                 <li>selezionare la zona geografica di interesse;</li>
                 <li>indicare l’Indirizzo E-Mail;</li>
                 <li>inserire e confermare una password di accesso;</li>
@@ -110,11 +110,11 @@ const PlatformRegulations = () => {
 
         {/* COMPILAZIONE */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">4. Compilazione degli ordini</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">4. Compilazione degli ordini</span>
+          <ol className="text-sm md:text-xs">
             <li>
               <span className="font-bold">4.1</span> Per effettuare un Ordine di Acquisto, il Cliente deve:
-              <ol className="py-4 pl-6 text-xs">
+              <ol className="py-4 pl-6 text-sm md:text-xs">
                 <li>{'a).'}accedere alla Piattaforma effettuando il login con i propri username e password;</li>
                 <li>{'b).'}selezionare il Grossista desiderato fra quelli proposti in base all’area geografica dell’indirizzo di spedizione;</li>
                 <li>{'c).'}selezionare i Prodotti desiderati inserendoli nel Carrello;</li>
@@ -132,8 +132,8 @@ const PlatformRegulations = () => {
 
         {/* TRASMISSIONE */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">5. Trasmissione degli ordini</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">5. Trasmissione degli ordini</span>
+          <ol className="text-sm md:text-xs">
             <li><span className="font-bold">5.1</span> A seguito della conferma da parte del Cliente, la Piattaforma genera l’Ordine di Acquisto.</li>
             <li><span className="font-bold">5.2</span> L’Ordine di Acquisto costituisce la proposta del Cliente di acquistare da Eoreka i Prodotti inseriti nel Carrello.</li>
           </ol>
@@ -141,12 +141,12 @@ const PlatformRegulations = () => {
 
         {/* ACCETTAZIONE */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">6. Accettazione e conferma degli ordini</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">6. Accettazione e conferma degli ordini</span>
+          <ol className="text-sm md:text-xs">
             <li><span className="font-bold">6.1</span> A seguito della verifica della disponibilità dei Prodotti presso il Grossista, la Piattaforma conferma al Cliente l’accettazione dell’Ordine di Acquisto tramite messaggio di posta inviato all’Indirizzo E-Mail.</li>
             <li>
               <span className="font-bold">6.2</span> In caso di indisponibilità di un Prodotto presso il Grossista, la Piattaforma è impostata per:
-              <ol className="py-4 pl-6 text-xs list-decimal list-outside">
+              <ol className="py-4 pl-6 text-sm list-decimal list-outside md:text-xs">
                 <li>sostituire il Prodotto mancante con altro Prodotto similare commercializzato dallo stesso Grossista;</li>
                 <li>accettare l’Ordine di Acquisto senza il Prodotto mancante.</li>
               </ol>
@@ -158,8 +158,8 @@ const PlatformRegulations = () => {
 
         {/* CONSEGNA */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">7. Consegna e fatturazione</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">7. Consegna e fatturazione</span>
+          <ol className="text-sm md:text-xs">
             <li><span className="font-bold">7.1</span> La Consegna dei Prodotti presso l’indirizzo impostato dal Cliente avviene a cura del Grossista, per conto di Eoreka, con autonoma organizzazione di mezzi e di personale.</li>
             <li><span className="font-bold">7.2</span> In assenza di contestazioni formulate per iscritto entro 3 (tre) giorni dalla consegna dei Prodotti, questa si intende accettata senza alcuna riserva.</li>
             <li><span className="font-bold">7.3</span> A fronte dell’accettazione dell’Ordine di Acquisto, Eoreka emette fattura fiscale elettronica e la trasmette ad Agenzia delle Entrate tramite il Sistema di Interscambio. Copia della fattura elettronica è disponibile sul profilo del Cliente e trasmessa da Eoreka all’Indirizzo E-Mail.</li>
@@ -169,16 +169,16 @@ const PlatformRegulations = () => {
 
         {/* CANCELLAZIONE */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">8. Cancellazione del profilo</span>
-          <p className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">8. Cancellazione del profilo</span>
+          <p className="text-sm md:text-xs">
 	          Il Cliente ha diritto di chiedere in qualsiasi momento la cancellazione del profilo dalla Piattaforma mediante invio di comunicazione scritta a mezzo posta elettronica certificata all’indirizzo eorekasrl@legalmail.it.
 	        </p>
         </section>
 
         {/* DISPOSIZIONI */}
         <section className="flex flex-col gap-2 my-4">
-          <span className="text-sm underline uppercase">9. Disposizioni finali</span>
-          <ol className="text-xs">
+          <span className="text-base underline uppercase md:text-sm">9. Disposizioni finali</span>
+          <ol className="text-sm md:text-xs">
             <li><span className="font-bold">7.1</span> Il presente Regolamento e le successive modificazioni e integrazioni si applicano e regolano in modo esclusivo il rapporto tra la Società e il Cliente. Esso è soggetto, in via esclusiva, alla legge italiana.</li>
             <li><span className="font-bold">7.1</span> Eventuali variazioni o deroghe al Regolamento sono valide solo in quanto pubblicate e accettate dal Cliente.</li>
             <li><span className="font-bold">7.1</span> La nullità, anche sopravvenuta, di una o più clausole del Regolamento non pregiudica la validità delle rimanenti, né la validità degli altri rapporti instaurati tra le Parti.</li>
