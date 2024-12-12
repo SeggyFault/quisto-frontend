@@ -14,7 +14,7 @@ const Navigation = ({ className, href }) => {
 
         <ul className="flex gap-2.5">
           <li>
-            <Button label="Accedi" href="#" className="py-2.5 px-12 font-bold text-grey-50 bg-transparent hover:bg-grey-50 hover:text-flamingo-300" />
+            <Button label="Accedi" href="/login" className="py-2.5 px-12 font-bold text-grey-50 bg-transparent hover:bg-grey-50 hover:text-flamingo-300" />
           </li>
           <li>
             <Button label="Registrati" href="/registrati" className="py-2.5 px-12 font-bold text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
