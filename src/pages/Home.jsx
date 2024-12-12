@@ -1,6 +1,7 @@
 import Button from '../components/Button';
 import Heading from '../components/Heading';
 import Feature from '../components/Feature';
+import CallToAction from '../components/CallToAction';
 import { BiCartAlt } from "react-icons/bi";
 
 function Home() {
@@ -123,10 +124,7 @@ function Home() {
       </section>
       
       {/*Provaci e ci amerai!*/}
-      <section className='py-14'>
-        <Heading level={2} className="text-midnight-400 text-center text-[64px]">Provaci e ci amerai!</Heading>
-        <Button label="Ordina su Quisto" href="#" className="py-5 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
-      </section>
+      <CallToAction/>
 
       <section className='py-14'>
         {/*FAQ*/}
