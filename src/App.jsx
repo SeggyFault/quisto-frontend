@@ -4,6 +4,7 @@ import FullScreenLayout from './layout/FullScreenLayout';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import PlatformRegulations from './pages/PlatformRegulations';
+import Registration from './pages/Registration';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<MainLayout><Home/></MainLayout>} />
         <Route path="/privacy-policy" element={<FullScreenLayout><PrivacyPolicy /></FullScreenLayout>} />
         <Route path="/platform-regulations" element={<FullScreenLayout><PlatformRegulations /></FullScreenLayout>} />
+        <Route path="/registrati" element={<FullScreenLayout><Registration></Registration></FullScreenLayout>} />
       </Routes>
     </Router>
   );
