@@ -97,8 +97,8 @@ function Home() {
         </section>
 
         <section className='flex gap-10 mx-8 mt-16 mb-8 place-content-center'>
-          <Button label="Ingrosso bevande e alimentare" href="#" className="px-8 py-4 font-normal border-2 bg-flamingo-200 hover:bg-grey-50 text-grey-400 border-grey-400" />
-          <Button label="Prodotti in assortimento" href="#" className="px-8 py-4 font-normal border-2 bg-flamingo-200 hover:bg-grey-50 text-grey-400 border-grey-400" />
+          <Button label="Ingrosso bevande e alimentare" href="#" className="px-8 py-4 font-normal border-2 rounded-lg bg-flamingo-200 hover:bg-grey-50 text-grey-400 border-grey-400" />
+          <Button label="Prodotti in assortimento" href="#" className="px-8 py-4 font-normal border-2 rounded-lg bg-flamingo-200 hover:bg-grey-50 text-grey-400 border-grey-400" />
         </section>
         
       </main>
@@ -106,7 +106,7 @@ function Home() {
       {/*In offerta questo mese*/}
       <section className='py-14'>
         <Heading level={2} className="text-midnight-400 text-center text-[64px]">In offerta questo mese</Heading>
-        <Button label="Aggiungi" href="#"  icon={BiCartAlt} className="px-8 py-2 font-bold text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
+        <Button label="Aggiungi" href="#"  icon={BiCartAlt} className="px-8 py-2 font-bold rounded-lg text-grey-50 hover:bg-flamingo-400 bg-flamingo-300" />
       </section>
       
       {/*Perché Quisto?*/}

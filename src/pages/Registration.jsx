@@ -123,7 +123,7 @@ const Registration = () => {
             <label htmlFor="consent-checkbox">Acconsento all'uso dei miei dati per ricevere OMAGGI e SCONTI da usare sui miei ordini Quisto</label>
           </fieldset> */}
 
-          <Button type="submit" label="Registrati" className="py-5 mt-4 font-bold px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300"/>
+          <Button type="submit" label="Registrati" className="py-5 mt-4 font-bold rounded-lg px-11 text-grey-50 hover:bg-flamingo-400 bg-flamingo-300"/>
         </form>
       </main>
     </div>
