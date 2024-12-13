@@ -2,6 +2,7 @@ import Button from '../components/Button';
 import Heading from '../components/Heading';
 import Feature from '../components/Feature';
 import CallToAction from '../components/CallToAction';
+import Accordion from '../components/Accordion';
 import { BiCartAlt } from "react-icons/bi";
 
 function Home() {
@@ -126,14 +127,9 @@ function Home() {
       {/*Provaci e ci amerai!*/}
       <CallToAction/>
 
-      <section className='py-14'>
-        {/*FAQ*/}
-        <Heading level={2} className="text-midnight-400 text-center text-[64px]">FAQs</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Cos’è Quisto?</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Quali sono i vostri principali vantaggi?</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Come ordino su Quisto?</Heading>
-        <Heading level={3} className="text-2xl text-center text-midnight-400">Perché fidarmi di Quisto?</Heading>
-      </section>
+      {/*FAQ*/}
+      {console.log(<Accordion />)}
+      <Accordion />
       
     </div>
   )
