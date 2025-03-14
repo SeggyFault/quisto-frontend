@@ -1,8 +1,20 @@
-# React + Vite
+# Quisto
+[Quisto Backend](https://github.com/SeggyFault/quisto-frontend)
+🎯 Revamp of the app using React.js, transforming it into a more dynamic and user-friendly platform. By leveraging React's component-based architecture, I streamlined the user interface and enhanced its responsiveness, ensuring a seamless experience across devices. Quisto has updated their designs in 2025 so no live preview is available
+ 
+## 🚀 Tech Stack  
+- React, TailwindCSS, Git, Vite, Node.js, Express, MongoDB 
+ 
+## 🛠️ Features  
+✅ **Modern Tech Stack** – Built with **React.js**, styled with **TailwindCSS**, and powered by **Vite** for fast development  
+✅ **Responsive Design** – Fully optimized for all screen sizes, ensuring a seamless experience on desktop, tablet, and mobile devices  
+✅ **Component-Based Architecture** – Modular and reusable components improve maintainability and scalability  
+✅ **Fast & Lightweight** – Uses **Vite** for lightning-fast builds and optimal performance   
+✅ **Accessibility-First Approach** – Follows **ARIA guidelines**, proper **keyboard navigation**, and **semantic HTML** to ensure an inclusive experience for all users  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo  
+Not available since the design was recently changed
 
-Currently, two official plugins are available:
+## 👤 Author  
+Oleksandra Masiukevych - [LinkedIn](https://www.linkedin.com/in/omasiukevych)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
